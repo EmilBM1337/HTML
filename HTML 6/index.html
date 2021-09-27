@@ -5,6 +5,13 @@
 <title>HTML 6</title>
 </head>
 <body>
-    <img srcset="img/NebulaSmall.jpg" alt="Nebula" sizes="50">
+    <img
+    alt="Nebula.jpg"
+    src="img/NebulaMedium.jpg"
+    srcset="
+    img/NebulaSmall.jpg 240w,
+    img/NebulaMedium.jpg 300w,
+    img/Nebula.jpg 720w"
+    sizes="(min-width: 960px) 720px, 50vw">
 </body>
 </html>
